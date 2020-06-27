@@ -4,7 +4,8 @@
   "main": "src/shared/infra/http/server.ts",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "build": "tsc -p",
+    "start": "ts-node dist/shared/infra/http/server.js",
     "dev": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules -r tsconfig-paths/register src/shared/infra/http/server.ts"
   },
   "dependencies": {

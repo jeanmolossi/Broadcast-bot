@@ -12,4 +12,6 @@ const app = express();
 const photosDir = path.resolve(__dirname, '..', '..', '..', 'assets');
 app.use('/files', express.static(photosDir));
 
-app.listen(3333, () => console.log('Listening on port >> 3333'));
+const { PORT } = process.env;
+
+app.listen(PORT, () => console.log('Listening on port >> 3333'));
