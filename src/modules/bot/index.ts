@@ -38,12 +38,12 @@ const StartPool = async (): Promise<void> => {
       });
 
       let photos = {
-        photo1: `${process.env.API_URL}/files/photo1.jpg`,
-        photo2: `${process.env.API_URL}/files/photo2.jpg`,
-        photo3: `${process.env.API_URL}/files/photo3.jpg`,
-        photo4: `${process.env.API_URL}/files/photo4.jpg`,
-        photo5: `${process.env.API_URL}/files/photo5.jpg`,
-        photo6: `${process.env.API_URL}/files/photo6.jpg`,
+        photo1: `https://i.ibb.co/BzXLfBv/photo1.jpg`,
+        photo2: `https://i.ibb.co/T04yFnN/photo2.jpg`,
+        photo3: `https://i.ibb.co/NystLnz/photo3.jpg`,
+        photo4: `https://i.ibb.co/XkyqBwL/photo4.jpg`,
+        photo5: `https://i.ibb.co/QNRxbQ2/photo5.jpg`,
+        photo6: `https://i.ibb.co/25VbZJP/photo6.jpg`,
       };
 
       if (process.env.NODE_ENV === 'development') {

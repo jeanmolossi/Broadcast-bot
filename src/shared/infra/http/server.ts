@@ -9,7 +9,8 @@ import '@modules/bot';
 
 const app = express();
 
-const photosDir = path.resolve(__dirname, '..', '..', '..', 'assets');
+const photosDir = path.resolve(__dirname, '..', '..', '..', '..', 'assets');
+console.log(photosDir);
 app.use('/files', express.static(photosDir));
 
 const { PORT } = process.env;
