@@ -3,7 +3,7 @@ import express from 'express';
 import path from 'path';
 
 import '@config/typeorm';
-import '../../container';
+import '@shared/container';
 
 import '@modules/bot';
 
