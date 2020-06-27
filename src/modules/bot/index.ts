@@ -18,9 +18,9 @@ const StartPool = async (): Promise<void> => {
     async (context, next) => {
       const message = getMessageInfo(context);
 
-      // if (message.from.id === config.dev || message.from.id === config.boss) {
-      // if (message.from.id === config.dev) {
-      if (message.from.id === config.boss) {
+      if (message.from.id === config.dev || message.from.id === config.boss) {
+        // if (message.from.id === config.dev) {
+        // if (message.from.id === config.boss) {
         await context.reply('Opa! O papai chegou!!');
 
         return next();
