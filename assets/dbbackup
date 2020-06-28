@@ -1,0 +1,976 @@
+[{
+  "_id": {
+    "$oid": "5ef778c4ab38bc61a124a9b8"
+  },
+  "id": null,
+  "name": "Luana",
+  "telegramId": 854459116,
+  "username": null,
+  "surname": "Dandolini",
+  "created_at": {
+    "$date": "2020-06-27T16:50:12.547Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T16:50:12.547Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef79afd4c7c1468ecfe1316"
+  },
+  "id": null,
+  "name": "Paulo",
+  "telegramId": 889801508,
+  "username": null,
+  "surname": "Araújo",
+  "created_at": {
+    "$date": "2020-06-27T19:16:13.533Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T19:16:13.533Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef79ffb4c7c1468ecfe1317"
+  },
+  "id": null,
+  "name": "Charles",
+  "telegramId": 1280695122,
+  "username": null,
+  "surname": "Santos",
+  "created_at": {
+    "$date": "2020-06-27T19:37:31.159Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T19:37:31.159Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ab2b4c7c1468ecfe1318"
+  },
+  "id": null,
+  "name": "Daniel",
+  "telegramId": 928496831,
+  "username": null,
+  "surname": "Rozental",
+  "created_at": {
+    "$date": "2020-06-27T20:25:15.908Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:25:15.908Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ab2c4c7c1468ecfe1319"
+  },
+  "id": null,
+  "name": "Milciades",
+  "telegramId": 309601358,
+  "username": null,
+  "surname": "G.",
+  "created_at": {
+    "$date": "2020-06-27T20:25:16.446Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:25:16.446Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ab454c7c1468ecfe131a"
+  },
+  "id": null,
+  "name": "Eduardo",
+  "telegramId": 689007376,
+  "username": "Eduardodudu06",
+  "surname": "Dudu",
+  "created_at": {
+    "$date": "2020-06-27T20:25:41.611Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:25:41.611Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ab604c7c1468ecfe131b"
+  },
+  "id": null,
+  "name": "Cantos 10 ⛳",
+  "telegramId": 730651699,
+  "username": "Cantos_10",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T20:26:08.965Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:26:08.965Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ab814c7c1468ecfe131c"
+  },
+  "id": null,
+  "name": "Mateus",
+  "telegramId": 769875856,
+  "username": "mateusantunes2010",
+  "surname": "Antunes",
+  "created_at": {
+    "$date": "2020-06-27T20:26:41.625Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:26:41.625Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ae884c7c1468ecfe131d"
+  },
+  "id": null,
+  "name": "Renan",
+  "telegramId": 1260944270,
+  "username": null,
+  "surname": "Silveira",
+  "created_at": {
+    "$date": "2020-06-27T20:39:36.075Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:39:36.075Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ae894c7c1468ecfe131e"
+  },
+  "id": null,
+  "name": "Sávio",
+  "telegramId": 985990586,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T20:39:37.511Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:39:37.511Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7ae914c7c1468ecfe131f"
+  },
+  "id": null,
+  "name": "Fagner",
+  "telegramId": 863846184,
+  "username": null,
+  "surname": "Ferreira da Cruz",
+  "created_at": {
+    "$date": "2020-06-27T20:39:45.697Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:39:45.697Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7aea34c7c1468ecfe1320"
+  },
+  "id": null,
+  "name": "Murilo",
+  "telegramId": 1086169200,
+  "username": "gomesmrlo",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T20:40:03.741Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:40:03.741Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7aea74c7c1468ecfe1321"
+  },
+  "id": null,
+  "name": "Gaaby Costa 🍀",
+  "telegramId": 1035646462,
+  "username": "Gabymarketing02",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T20:40:07.565Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:40:07.565Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7af3a4c7c1468ecfe1322"
+  },
+  "id": null,
+  "name": "Genisson",
+  "telegramId": 1240488351,
+  "username": null,
+  "surname": "Moreira",
+  "created_at": {
+    "$date": "2020-06-27T20:42:34.810Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:42:34.810Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b06d4c7c1468ecfe1323"
+  },
+  "id": null,
+  "name": "Yally",
+  "telegramId": 1014197163,
+  "username": null,
+  "surname": "Dantas",
+  "created_at": {
+    "$date": "2020-06-27T20:47:41.663Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:47:41.663Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b0814c7c1468ecfe1324"
+  },
+  "id": null,
+  "name": "Gilberto",
+  "telegramId": 1104745237,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T20:48:01.541Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:48:01.541Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b14a4c7c1468ecfe1325"
+  },
+  "id": null,
+  "name": "Raphael",
+  "telegramId": 906079254,
+  "username": null,
+  "surname": "Oliveira",
+  "created_at": {
+    "$date": "2020-06-27T20:51:22.857Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:51:22.857Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b2764c7c1468ecfe1326"
+  },
+  "id": null,
+  "name": "Caio",
+  "telegramId": 815223122,
+  "username": "Caiobarres",
+  "surname": "Barres",
+  "created_at": {
+    "$date": "2020-06-27T20:56:22.712Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:56:22.712Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b2fc4c7c1468ecfe1327"
+  },
+  "id": null,
+  "name": "Joiziano",
+  "telegramId": 983239517,
+  "username": null,
+  "surname": "Brandao",
+  "created_at": {
+    "$date": "2020-06-27T20:58:36.712Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T20:58:36.712Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b36c4c7c1468ecfe1328"
+  },
+  "id": null,
+  "name": "Higo",
+  "telegramId": 826091239,
+  "username": null,
+  "surname": "Oliveira",
+  "created_at": {
+    "$date": "2020-06-27T21:00:28.885Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:00:28.885Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b7504c7c1468ecfe1329"
+  },
+  "id": null,
+  "name": "João",
+  "telegramId": 454229495,
+  "username": "JVJVT",
+  "surname": "Victor",
+  "created_at": {
+    "$date": "2020-06-27T21:17:04.604Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:17:04.604Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b75a4c7c1468ecfe132a"
+  },
+  "id": null,
+  "name": "Paulo",
+  "telegramId": 1096687753,
+  "username": "ViniciusEsdrasGardeane",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T21:17:14.173Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:17:14.173Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b7654c7c1468ecfe132b"
+  },
+  "id": null,
+  "name": "Erik",
+  "telegramId": 996385771,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T21:17:25.264Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:17:25.264Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b8024c7c1468ecfe132c"
+  },
+  "id": null,
+  "name": "Paulo Henrique",
+  "telegramId": 697245806,
+  "username": "phenrique21",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T21:20:02.071Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:20:02.071Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b8b74c7c1468ecfe132d"
+  },
+  "id": null,
+  "name": "Caio",
+  "telegramId": 748909915,
+  "username": "caiohwolff",
+  "surname": "Wolff",
+  "created_at": {
+    "$date": "2020-06-27T21:23:03.530Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:23:03.530Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7b8d84c7c1468ecfe132e"
+  },
+  "id": null,
+  "name": "VITOR",
+  "telegramId": 1213635981,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-27T21:23:36.910Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T21:23:36.910Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7c57c4c7c1468ecfe132f"
+  },
+  "id": null,
+  "name": "Eylton",
+  "telegramId": 1051407626,
+  "username": "EyltonDosSantos",
+  "surname": "Dos Santos",
+  "created_at": {
+    "$date": "2020-06-27T22:17:32.388Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T22:17:32.388Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7c5864c7c1468ecfe1330"
+  },
+  "id": null,
+  "name": "Gabriel",
+  "telegramId": 1143591158,
+  "username": null,
+  "surname": "Rosa",
+  "created_at": {
+    "$date": "2020-06-27T22:17:42.097Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T22:17:42.097Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7c6354c7c1468ecfe1331"
+  },
+  "id": null,
+  "name": "Luis Eduardo",
+  "telegramId": 1098936045,
+  "username": "LuisBilhalva",
+  "surname": "Ritta Bilhalva",
+  "created_at": {
+    "$date": "2020-06-27T22:20:37.683Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T22:20:37.683Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7c88e4c7c1468ecfe1332"
+  },
+  "id": null,
+  "name": "Bruno",
+  "telegramId": 1214208822,
+  "username": null,
+  "surname": "Neves",
+  "created_at": {
+    "$date": "2020-06-27T22:30:38.904Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-27T22:30:38.904Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7f2684c7c1468ecfe1333"
+  },
+  "id": null,
+  "name": "DANIEL",
+  "telegramId": 956802055,
+  "username": "Danielevergreen",
+  "surname": "EVERGREEN",
+  "created_at": {
+    "$date": "2020-06-28T01:29:12.191Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T01:29:12.191Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef7f2cf4c7c1468ecfe1334"
+  },
+  "id": null,
+  "name": "Tiane",
+  "telegramId": 1242517409,
+  "username": "TianeSG",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T01:30:55.007Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T01:30:55.007Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a90d4c7c1468ecfe1335"
+  },
+  "id": null,
+  "name": "Samuel",
+  "telegramId": 1119853418,
+  "username": "Muka_guitar",
+  "surname": "Duarte",
+  "created_at": {
+    "$date": "2020-06-28T14:28:29.768Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:28:29.768Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9434c7c1468ecfe1336"
+  },
+  "id": null,
+  "name": "Rafael",
+  "telegramId": 1223584402,
+  "username": "RafaelFarias92",
+  "surname": "Farias",
+  "created_at": {
+    "$date": "2020-06-28T14:29:23.602Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:29:23.602Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a94b4c7c1468ecfe1337"
+  },
+  "id": null,
+  "name": "Kah Tomazini",
+  "telegramId": 860207293,
+  "username": "kah_Tomazini",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T14:29:31.747Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:29:31.747Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a94f4c7c1468ecfe1338"
+  },
+  "id": null,
+  "name": "Clênio",
+  "telegramId": 660971054,
+  "username": null,
+  "surname": "Nascimento",
+  "created_at": {
+    "$date": "2020-06-28T14:29:35.991Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:29:35.991Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9544c7c1468ecfe1339"
+  },
+  "id": null,
+  "name": "Neskens",
+  "telegramId": 1245361848,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T14:29:40.599Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:29:40.599Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a97f4c7c1468ecfe133a"
+  },
+  "id": null,
+  "name": "Emilia",
+  "telegramId": 1011133610,
+  "username": null,
+  "surname": "Carolinne",
+  "created_at": {
+    "$date": "2020-06-28T14:30:23.463Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:30:23.463Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9934c7c1468ecfe133b"
+  },
+  "id": null,
+  "name": "NathZera",
+  "telegramId": 1101469272,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T14:30:43.279Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:30:43.279Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9954c7c1468ecfe133c"
+  },
+  "id": null,
+  "name": "Jose",
+  "telegramId": 722440662,
+  "username": null,
+  "surname": "Junior",
+  "created_at": {
+    "$date": "2020-06-28T14:30:45.442Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:30:45.442Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9aa4c7c1468ecfe133d"
+  },
+  "id": null,
+  "name": "Diego",
+  "telegramId": 806783966,
+  "username": null,
+  "surname": "Rodrigues",
+  "created_at": {
+    "$date": "2020-06-28T14:31:06.946Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:31:06.946Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9af4c7c1468ecfe133e"
+  },
+  "id": null,
+  "name": "Marcelo",
+  "telegramId": 216142572,
+  "username": "inacms",
+  "surname": "Inacio",
+  "created_at": {
+    "$date": "2020-06-28T14:31:11.923Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:31:11.923Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9b94c7c1468ecfe133f"
+  },
+  "id": null,
+  "name": "Romário",
+  "telegramId": 711238447,
+  "username": "Romariofeitosa",
+  "surname": "Feitosa",
+  "created_at": {
+    "$date": "2020-06-28T14:31:21.893Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:31:21.893Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9bb4c7c1468ecfe1340"
+  },
+  "id": null,
+  "name": "Angelo",
+  "telegramId": 1059499658,
+  "username": "angelojunior7",
+  "surname": "Junior",
+  "created_at": {
+    "$date": "2020-06-28T14:31:23.648Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:31:23.648Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8a9ef4c7c1468ecfe1341"
+  },
+  "id": null,
+  "name": "Tiago",
+  "telegramId": 1235960073,
+  "username": null,
+  "surname": "Arantes",
+  "created_at": {
+    "$date": "2020-06-28T14:32:15.644Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:32:15.644Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aa0a4c7c1468ecfe1342"
+  },
+  "id": null,
+  "name": "Josimar",
+  "telegramId": 1077717692,
+  "username": null,
+  "surname": "Mello",
+  "created_at": {
+    "$date": "2020-06-28T14:32:42.004Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:32:42.004Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aa6b4c7c1468ecfe1343"
+  },
+  "id": null,
+  "name": "Augusto",
+  "telegramId": 1200340116,
+  "username": null,
+  "surname": "da Costa",
+  "created_at": {
+    "$date": "2020-06-28T14:34:19.779Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:34:19.779Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aa6c4c7c1468ecfe1344"
+  },
+  "id": null,
+  "name": "Bartolomeu",
+  "telegramId": 1043034407,
+  "username": null,
+  "surname": "Neto",
+  "created_at": {
+    "$date": "2020-06-28T14:34:20.507Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:34:20.507Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aa934c7c1468ecfe1345"
+  },
+  "id": null,
+  "name": "Lucas",
+  "telegramId": 1079661300,
+  "username": null,
+  "surname": "Soares",
+  "created_at": {
+    "$date": "2020-06-28T14:34:59.819Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:34:59.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aabc4c7c1468ecfe1346"
+  },
+  "id": null,
+  "name": "Lucas",
+  "telegramId": 935883032,
+  "username": null,
+  "surname": "S. Silva",
+  "created_at": {
+    "$date": "2020-06-28T14:35:40.750Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:35:40.750Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aac34c7c1468ecfe1347"
+  },
+  "id": null,
+  "name": "Jardel",
+  "telegramId": 1274127528,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T14:35:47.509Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:35:47.509Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8aadb4c7c1468ecfe1348"
+  },
+  "id": null,
+  "name": "Sérgio",
+  "telegramId": 922039793,
+  "username": null,
+  "surname": "Rizzotto",
+  "created_at": {
+    "$date": "2020-06-28T14:36:11.436Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:36:11.436Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8ab4e4c7c1468ecfe1349"
+  },
+  "id": null,
+  "name": "Genilton",
+  "telegramId": 1029276452,
+  "username": "Getips",
+  "surname": "Trader",
+  "created_at": {
+    "$date": "2020-06-28T14:38:06.128Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:38:06.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8ab8e4c7c1468ecfe134a"
+  },
+  "id": null,
+  "name": "😁",
+  "telegramId": 750035857,
+  "username": null,
+  "surname": "Itamar",
+  "created_at": {
+    "$date": "2020-06-28T14:39:10.859Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T14:39:10.859Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8c7ed81d4fb77912d7cb3"
+  },
+  "id": null,
+  "name": "Weslley",
+  "telegramId": 1166493731,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T16:40:13.817Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T16:40:13.817Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8c7ed81d4fb77912d7cb4"
+  },
+  "id": null,
+  "name": "Weslley",
+  "telegramId": 1166493731,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T16:40:13.826Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T16:40:13.826Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8c7ed81d4fb77912d7cb5"
+  },
+  "id": null,
+  "name": "Luis Henrique",
+  "telegramId": 953987369,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T16:40:13.829Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T16:40:13.829Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8caa381d4fb77912d7cb6"
+  },
+  "id": null,
+  "name": "Rod",
+  "telegramId": 742885366,
+  "username": "RodPoker",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T16:51:47.782Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T16:51:47.782Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d20281d4fb77912d7cb7"
+  },
+  "id": null,
+  "name": "Erick",
+  "telegramId": 818681279,
+  "username": "erickmariano",
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T17:23:14.092Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:23:14.092Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d25381d4fb77912d7cb8"
+  },
+  "id": null,
+  "name": "Weslley",
+  "telegramId": 964371281,
+  "username": null,
+  "surname": "Nascimento",
+  "created_at": {
+    "$date": "2020-06-28T17:24:35.555Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:24:35.555Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d25e81d4fb77912d7cb9"
+  },
+  "id": null,
+  "name": "Luan",
+  "telegramId": 910887988,
+  "username": "Luanmoda",
+  "surname": "Moda",
+  "created_at": {
+    "$date": "2020-06-28T17:24:46.120Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:24:46.120Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d26781d4fb77912d7cba"
+  },
+  "id": null,
+  "name": "Rafael",
+  "telegramId": 902915336,
+  "username": null,
+  "surname": null,
+  "created_at": {
+    "$date": "2020-06-28T17:24:55.688Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:24:55.688Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d36c81d4fb77912d7cbb"
+  },
+  "id": null,
+  "name": "Douglas",
+  "telegramId": 894744938,
+  "username": null,
+  "surname": "Obregon",
+  "created_at": {
+    "$date": "2020-06-28T17:29:16.479Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:29:16.479Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d37f81d4fb77912d7cbc"
+  },
+  "id": null,
+  "name": "Kaju",
+  "telegramId": 628931097,
+  "username": null,
+  "surname": "Comk",
+  "created_at": {
+    "$date": "2020-06-28T17:29:35.147Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:29:35.147Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef8d47881d4fb77912d7cbd"
+  },
+  "id": null,
+  "name": "Alan",
+  "telegramId": 775431182,
+  "username": "AlanReis5",
+  "surname": "Reis",
+  "created_at": {
+    "$date": "2020-06-28T17:33:44.690Z"
+  },
+  "updated_at": {
+    "$date": "2020-06-28T17:33:44.690Z"
+  }
+}]
