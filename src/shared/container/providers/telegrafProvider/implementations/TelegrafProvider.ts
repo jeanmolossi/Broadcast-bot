@@ -36,10 +36,10 @@ export default class TelegrafProvider implements ITelegrafProvider {
     message,
     to: telegramId,
   }: ISendBroadcastMediaDTO): Promise<boolean | number> {
-    const { photo, video_note, video } = message.reply_to_message;
+    const { photo, video_note, video, voice, audio } = message.reply_to_message;
 
     try {
-      if (!!photo && !!video_note && !!video)
+      if (!!photo && !!video_note && !!video && !!voice && !!audio)
         throw new Error('Media não identificada');
 
       const caption = message.text.replace('/media', '').trim();
@@ -52,12 +52,26 @@ export default class TelegrafProvider implements ITelegrafProvider {
         });
       }
       if (video_note) {
-        await this.Bot.telegram.sendChatAction(telegramId, 'upload_video_note');
+        await this.Bot.telegram.sendChatAction(telegramId, 'record_video_note');
         await this.Bot.telegram.sendVideoNote(telegramId, video_note.file_id);
       }
       if (video) {
         await this.Bot.telegram.sendChatAction(telegramId, 'upload_video');
         await this.Bot.telegram.sendVideo(telegramId, video.file_id, {
+          caption,
+          parse_mode: 'HTML',
+        });
+      }
+      if (voice) {
+        await this.Bot.telegram.sendChatAction(telegramId, 'record_audio');
+        await this.Bot.telegram.sendVoice(telegramId, voice.file_id, {
+          caption,
+          parse_mode: 'HTML',
+        });
+      }
+      if (audio) {
+        await this.Bot.telegram.sendChatAction(telegramId, 'upload_audio');
+        await this.Bot.telegram.sendAudio(telegramId, audio.file_id, {
           caption,
           parse_mode: 'HTML',
         });

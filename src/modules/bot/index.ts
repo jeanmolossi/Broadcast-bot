@@ -174,11 +174,23 @@ const StartPool = async (): Promise<void> => {
   });
 
   Bot.command('media', async (context, next) => {
+    if (!('reply_to_message' in context.message)) {
+      await context.reply(
+        'Para enviar a mídia selecione responder na mensagem com a mídia',
+      );
+      return next();
+    }
     if (!context.message) return next();
 
-    const { photo, video_note, video } = context.message.reply_to_message;
+    const {
+      photo,
+      video_note,
+      video,
+      voice,
+      audio,
+    } = context.message.reply_to_message;
 
-    if ((!photo === !video_note) === !video) return next();
+    if (!!photo && !!video_note && !!video && !!voice && !!audio) return next();
 
     const sendMedia = container.resolve(SendMediaService);
     await sendMedia.execute(context.message);
