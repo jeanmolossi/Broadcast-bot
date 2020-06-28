@@ -10,9 +10,10 @@ import '@modules/bot';
 const app = express();
 
 const photosDir = path.resolve(__dirname, '..', '..', '..', '..', 'assets');
-console.log(photosDir);
+
 app.use('/files', express.static(photosDir));
 
 const { PORT } = process.env;
 
-app.listen(PORT, () => console.log('Listening on port >> 3333'));
+// eslint-disable-next-line no-console
+app.listen(PORT, () => console.log(`Listening on port >> ${PORT}`));

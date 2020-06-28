@@ -1,7 +1,6 @@
 import 'reflect-metadata';
 import { container } from 'tsyringe';
 import Extra from 'telegraf/extra';
-import fs from 'fs';
 
 import { Bot, config } from '@config/bot';
 import CreateUserService from '@modules/users/services/CreateUserService';
@@ -9,6 +8,7 @@ import CreateUserService from '@modules/users/services/CreateUserService';
 import getMessageInfo from './utils/getMessageInfo';
 import SendBroadcastService from './services/SendBroadcastService';
 import ListSizeService from './services/ListSizeService';
+import SendMediaService from './services/SendMediaService';
 
 const StartPool = async (): Promise<void> => {
   let broadcastMessage: string;
@@ -30,7 +30,7 @@ const StartPool = async (): Promise<void> => {
 
       const { id, username, last_name, first_name } = message.from;
 
-      const userCreated = await createUser.execute({
+      await createUser.execute({
         name: first_name,
         telegramId: id,
         username,
@@ -173,10 +173,26 @@ const StartPool = async (): Promise<void> => {
     );
   });
 
+  Bot.command('media', async (context, next) => {
+    if (!context.message) return next();
+
+    const { photo, video_note, video } = context.message.reply_to_message;
+
+    if ((!photo === !video_note) === !video) return next();
+
+    const sendMedia = container.resolve(SendMediaService);
+    await sendMedia.execute(context.message);
+
+    return next();
+  });
+
+  // eslint-disable-next-line no-console
   const fulfilled = () => console.log(`Bot ${Bot.options.username} launched`);
+  // eslint-disable-next-line no-console
   const rejected = reason => console.log('Not launched! Reason: ', reason);
 
   const errorCatcher = errStack => {
+    // eslint-disable-next-line no-console
     console.log('Bot error handler >> ', errStack);
 
     Bot.telegram.sendMessage(
