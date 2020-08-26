@@ -1,4 +1,5 @@
 import 'reflect-metadata';
+import fs from 'fs';
 import { container } from 'tsyringe';
 import Extra from 'telegraf/extra';
 
@@ -18,9 +19,9 @@ const StartPool = async (): Promise<void> => {
     async (context, next) => {
       const message = getMessageInfo(context);
 
-      if (message.from.id === config.dev || message.from.id === config.boss) {
-        // if (message.from.id === config.dev) {
-        // if (message.from.id === config.boss) {
+      // if (message.from.id === config.dev || message.from.id === config.boss) {
+      // if (message.from.id === config.dev) {
+      if (message.from.id === config.boss) {
         await context.reply('Opa! O papai chegou!!');
 
         return next();
@@ -38,12 +39,10 @@ const StartPool = async (): Promise<void> => {
       });
 
       let photos = {
-        photo1: `https://i.ibb.co/BzXLfBv/photo1.jpg`,
-        photo2: `https://i.ibb.co/T04yFnN/photo2.jpg`,
-        photo3: `https://i.ibb.co/NystLnz/photo3.jpg`,
-        photo4: `https://i.ibb.co/XkyqBwL/photo4.jpg`,
-        photo5: `https://i.ibb.co/QNRxbQ2/photo5.jpg`,
-        photo6: `https://i.ibb.co/25VbZJP/photo6.jpg`,
+        photo1: `https://i.ibb.co/sVjzsnM/photo1.jpg`,
+        photo2: `https://i.ibb.co/gW5X4tP/photo2.jpg`,
+        photo3: `https://i.ibb.co/1JqhDNV/photo3.jpg`,
+        photo4: `https://i.ibb.co/V3znvbK/photo4.jpg`,
       };
 
       if (process.env.NODE_ENV === 'development') {
@@ -59,16 +58,21 @@ const StartPool = async (): Promise<void> => {
           photo2: testPhoto(),
           photo3: testPhoto(),
           photo4: testPhoto(),
-          photo5: testPhoto(),
-          photo6: testPhoto(),
         };
       }
 
       await context.replyWithMediaGroup([
         {
+          media: photos.photo1,
+          type: 'photo',
+        },
+        {
           media: photos.photo2,
           type: 'photo',
         },
+      ]);
+
+      await context.replyWithMediaGroup([
         {
           media: photos.photo3,
           type: 'photo',
@@ -77,24 +81,29 @@ const StartPool = async (): Promise<void> => {
           media: photos.photo4,
           type: 'photo',
         },
-        {
-          media: photos.photo5,
-          type: 'photo',
-        },
-        {
-          media: photos.photo6,
-          type: 'photo',
-        },
       ]);
 
-      await context.replyWithPhoto(
-        photos.photo1,
+      await context.replyWithVideo(
+        {
+          url: `https://i.imgur.com/wk8NBlu.mp4`,
+          filename: 'video1.mp4',
+        },
         Extra.caption(
-          `🥳 <b>Bem vindo a <a href="https://t.me/InBETmentos">@inBETmentos</a></b> 🤑\n\n` +
-            `<pre>SE LIGA SÓ NESSES RESULTADOS 🙄👆</pre>\n\n` +
-            `<i>Você vai copiar e colar no canal pra ganhar igual, só isso...</i> 🤷‍♂🤷‍♀ \n\n` +
-            `<b>Entre agora, vai expirar: </b>\n` +
-            `https://t.me/joinchat/AAAAAEZ2ffrFZA6j33XkJA`,
+          `👆 <b>Aposta no Ponto AO VIVO </b> 😳\n\n` +
+            `<i>Quanto você  ganha por dia? 100 reais? E por hora? Uns 15 ou 10? Veja o potencial desse mercado no vídeo acima</i> 👆` +
+            `<pre>Em 30 segundos ganhei 1/4 do salário mínimo.</pre>\n\n` +
+            `<u>Quando você sabe o quê  faz, você coloca dinheiro nisso!!!!!</u> 👌 \n\n` +
+            `🎾🎾🎾🎾🎾🎾🎾🎾🎾🎾🎾🎾\n\n` +
+            `<b>Lucrar 1k-3k ajudaria você, nas contas, familia e sonhos?</b>\n` +
+            `👨‍👩‍👧‍👦🛫🏖🚘🏍💰🏡🧾\n\n` +
+            `com a Aposta no Ponto🎾 em tênis minha realidade mudou.\n\n` +
+            `E o melhor... 👇\n\n` +
+            `🤭 <b>SEM</b> envio de ❌tips, sem precisar de ❌vip e esqueça ❌tipsters pra sempre\n\n` +
+            `<a href="https://t.me/joinchat/AAAAAEZ2ffrFZA6j33XkJA">https://t.me/joinchat/AAAAAEZ2ffrFZA6j33XkJA</a>\n\n` +
+            `🚪ENTRE 👆 no canal para saber como também fazer esse resultado diário... <u>A SUA TAMBÉM PODE, SÓ DEPENDE DE VOCÊ QUERER ISSO!!!</u> 💪 \n\n` +
+            `<i>...CAI PRA DENTRO, mesmo que sua banca inicial seja só 100</i> 💶\n\n` +
+            `Sua libertação dos Vips, tips e tipsters está aqui 👇👇👇\n` +
+            `<a href="https://t.me/joinchat/AAAAAEZ2ffrFZA6j33XkJA">https://t.me/joinchat/AAAAAEZ2ffrFZA6j33XkJA</a>\n\n`,
         ).HTML(),
       );
 
